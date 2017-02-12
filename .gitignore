@@ -38,3 +38,6 @@ jspm_packages
 
 # Selenium drive
 geckodriver
+
+# Environment variables setup
+set-up-env-vars
