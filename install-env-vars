@@ -1,0 +1,6 @@
+!#/bin/sh
+echo off
+clear
+
+cp set-up-env-variables.template set-up-env-vars
+chmod u+x set-up-env-vars
