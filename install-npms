@@ -1,0 +1,10 @@
+!#/bin/sh
+echo off
+clear
+
+echo Installing libpcap dependency for selenium
+sudo apt-get install libpcap-dev -y
+
+echo Installing npms used for home automation
+npm install ipfob-setter-example
+npm install maker-samsung-remote
