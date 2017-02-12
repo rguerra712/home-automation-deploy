@@ -1,0 +1,9 @@
+!#/bin/sh
+echo on
+clear
+
+# Set path to current directory
+cd "${BASH_SOURCE%/*}" || exit
+
+source ./set-up-env-vars
+test "$SAMSUNG_IP_RANGE" != '' && (node ./node_modules/maker-samsung-remote/server.js)
